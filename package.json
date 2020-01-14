@@ -1,0 +1,29 @@
+{
+  "name": "css-file-loader",
+  "version": "0.1.0",
+  "description": "css-file-loader是一个webpack loader，用于将直接引入的css文件单独打包为一个独立的css文件，而不是编译为js或直接注入至html style标签中。",
+  "main": "lib/index.js",
+  "files": ["lib"],
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js"
+  },
+  "author": "YanEr",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/qc-web-y/css-file-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qc-web-y/css-file-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qc-web-y/css-file-loader/issues"
+  }
+}
