@@ -1,10 +1,10 @@
-# css-file-loader
+# css-alone-loader
 
-css-file-loader是一个[webpack loaders](https://www.webpackjs.com/configuration/module/#rule-loaders)，用于``art-html-loader``文件中引入css或less的文件的剥离输出与路径修改。其可以将直接引入的样式文件单独打包为一个独立的css文件，而不是编译为js或直接注入至html style标签中。
+css-alone-loader是一个[webpack loaders](https://www.webpackjs.com/configuration/module/#rule-loaders)，用于``art-html-loader``文件中引入css或less的文件的剥离输出与路径修改。其可以将直接引入的样式文件单独打包为一个独立的css文件，而不是编译为js或直接注入至html style标签中。
 
 ## Install
 ```
-$ npm install css-file-loader
+$ npm install css-alone-loader
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ module.exports = {
     rules: [{
     test: /\.less$/,
     exclude: /node_modules/,
-    use: ['css-file-loader','less-loader']
+    use: ['css-alone-loader','less-loader']
   }]
 }
 ```
@@ -25,7 +25,7 @@ module.exports = {
 
 ```
 use: [{
-  loader: 'css-file-loader',
+  loader: 'css-alone-loader',
   options: {
     // ...
   }

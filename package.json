@@ -1,7 +1,7 @@
 {
-  "name": "css-file-loader",
+  "name": "css-alone-loader",
   "version": "0.1.0",
-  "description": "css-file-loader是一个webpack loader，用于将直接引入的css文件单独打包为一个独立的css文件，而不是编译为js或直接注入至html style标签中。",
+  "description": "css-alone-loader是一个webpack loader，用于将直接引入的css文件单独打包为一个独立的css文件，而不是编译为js或直接注入至html style标签中。",
   "main": "lib/index.js",
   "files": ["lib"],
   "scripts": {
@@ -18,12 +18,12 @@
     "webpack-cli": "^3.3.10"
   },
   "keywords": [],
-  "homepage": "https://github.com/qc-web-y/css-file-loader",
+  "homepage": "https://github.com/qc-web-y/css-alone-loader",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qc-web-y/css-file-loader.git"
+    "url": "git+https://github.com/qc-web-y/css-alone-loader.git"
   },
   "bugs": {
-    "url": "https://github.com/qc-web-y/css-file-loader/issues"
+    "url": "https://github.com/qc-web-y/css-alone-loader/issues"
   }
 }
